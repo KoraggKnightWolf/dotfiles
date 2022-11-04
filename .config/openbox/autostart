@@ -1,0 +1,14 @@
+nitrogen --restore &
+#pacwall -ug & # restore latest pacwall image instead
+#tint2 -c ~/.config/tint2/themes/raven/raven-cyan.tint2rc & <--- themed version example
+#tint2 &
+#plank & <---- claims only X11 environments are supported, but openbox IS X11... NEEDS FIXING
+#polybar &
+picom --vsync -r 12 --no-fading-openclose -b &
+cairo-dock &
+conky -q -c /home/koragg/.conky/conky_white &
+#rofi -show run
+#nm-applet &
+#volumeicon &
+
+#xfce4-panel --disable-wm-check &
