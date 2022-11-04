@@ -1,0 +1,22 @@
+{
+  "env": {
+    "CARGO_HOME": "${XDG_DATA_HOME}/cargo",
+    "ELINKS_CONFDIR": "${XDG_CONFIG_HOME}/elinks",
+    "GNUPGHOME": "${XDG_DATA_HOME}/gnupg",
+    "GOPATH": "${XDG_DATA_HOME}/go",
+    "GRADLE_USER_HOME": "${XDG_DATA_HOME}/gradle",
+    "GTK2_RC_FILES": "${XDG_CONFIG_HOME}/gtk-2.0/gtkrc",
+    "HISTFILE": "${XDG_CACHE_HOME}/bash/history",
+    "LESSHISTFILE": "${XDG_CACHE_HOME}/less/history",
+    "LESSKEY": "${XDG_CONFIG_HOME}/less/lesskey",
+    "MPLAYER_HOME": "${XDG_CONFIG_HOME}/mplayer",
+    "RUSTUP_HOME": "${XDG_DATA_HOME}/rustup",
+    "SCREENRC": "${XDG_CONFIG_HOME}/screen/screenrc",
+    "TERMINFO": "${XDG_DATA_HOME}/terminfo",
+    "TERMINFO_DIRS": "${XDG_DATA_HOME}/terminfo:/usr/share/terminfo",
+    "_JAVA_OPTIONS": "-Djava.util.prefs.userRoot=\"$XDG_CONFIG_HOME\"/java"
+  },
+  "alias": {
+    "irssi": "irssi --home ${XDG_CONFIG_HOME}/irssi"
+  }
+}
