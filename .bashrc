@@ -132,3 +132,5 @@ alias archcolors='echo -e [41m [41m [41m [40m [44m [40m [41m [46m [45m 
 #echo -e [41m [41m [41m [40m [44m [40m [41m [46m [45m [41m [46m [43m [41m [44m [45m [40m [44m [40m [41m [44m [41m [41m [46m [42m [41m [44m [43m [41m [45m [40m [40m [44m [40m [41m [44m [42m [41m [46m [44m [41m [46m [47m [0m
 
 alias myexa='exa -al --color=always --group-directories-first'
+
+alias rtfm='ranger /usr/share/doc/arch-wiki/html/en'
