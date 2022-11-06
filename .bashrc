@@ -134,3 +134,14 @@ alias archcolors='echo -e [41m [41m [41m [40m [44m [40m [41m [46m [45m 
 alias myexa='exa -al --color=always --group-directories-first'
 
 alias rtfm='ranger /usr/share/doc/arch-wiki/html/en'
+
+isefi()
+{
+	if [ /sys/firmware/efi/efivars ];
+	then
+		echo "This system IS using EFI"
+
+	else
+		echo "This system IS NOT using EFI"
+	fi
+}
