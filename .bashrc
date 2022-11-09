@@ -67,6 +67,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias ip='ip -color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -147,3 +148,5 @@ isefi()
 		echo "This system IS NOT using EFI"
 	fi
 }
+
+alias goatmeme="mpv "$(hurl gopher://bitreich.org/0/memecache/index.meme | grep goat | grep -E '\.(mp4|mkv|webm|avi) ' | cut -f2 -d' ' | sort -R | head -n 1)""
