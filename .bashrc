@@ -150,3 +150,5 @@ isefi()
 }
 
 alias goatmeme="mpv "$(hurl gopher://bitreich.org/0/memecache/index.meme | grep goat | grep -E '\.(mp4|mkv|webm|avi) ' | cut -f2 -d' ' | sort -R | head -n 1)""
+
+CHROOT=$HOME/pkgmgmnt/chroot
