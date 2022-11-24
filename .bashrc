@@ -83,9 +83,15 @@ alias l='ls -CF'
 
 
 GOPATH=~/go
+
 PLAN9=/usr/local/plan9port
 PATH=$PATH:$PLAN9/bin
+PATH=$PATH:$GOPATH/bin
+PATH=$PATH:$HOME/.bin
+PATH=$PATH:$HOME/Applications
+
 EDITOR=nano
+
 alias adiirc='WINEPREFIX=~/.wine32 wine AdiIRC/AdiIRC.exe'
 
 man() {
@@ -152,3 +158,5 @@ isefi()
 alias goatmeme="mpv "$(hurl gopher://bitreich.org/0/memecache/index.meme | grep goat | grep -E '\.(mp4|mkv|webm|avi) ' | cut -f2 -d' ' | sort -R | head -n 1)""
 
 CHROOT=$HOME/pkgmgmnt/chroot
+
+alias octopi='/usr/bin/octopi'
