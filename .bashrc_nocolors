@@ -77,9 +77,16 @@ alias l='ls -CF'
 #alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
 
+GOPATH=~/go
+
 PLAN9=/usr/local/plan9port
 PATH=$PATH:$PLAN9/bin
+PATH=$PATH:$GOPATH/bin
+PATH=$PATH:$HOME/.bin
+PATH=$PATH:$HOME/Applications
+
 EDITOR=nano
+
 alias adiirc='WINEPREFIX=~/.wine32 wine AdiIRC/AdiIRC.exe'
 
 alias dotconfig='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
